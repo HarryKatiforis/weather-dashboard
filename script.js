@@ -38,7 +38,7 @@ fetch(queryURL)
       document.getElementById('weather-dashboard').appendChild(p0)
   
       let p1 = document.createElement('h1')
-      p1.textContent = 'temperature: ' + temperature
+      p1.textContent = 'temperature: ' + temperature + 
       document.getElementById("weather-dashboard").appendChild(p1)
 
       let p2 = document.createElement('h1')
